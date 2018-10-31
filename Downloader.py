@@ -5,6 +5,8 @@ import os
 import re
 import sys
 
+print "Url Downloader"
+
 base_url = sys.argv[1] 
 proxies = {'http':'http://172.16.30.20:8080' , 'https':'172.16.30.20:8080'}
 urlfile = urllib.urlopen(base_url , proxies = proxies)
